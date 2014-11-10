@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item
+        android:id="@+id/action_language"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:onClick="dialogLanguage"
+        android:title="@string/language"/>
+
+
+ <!--
+	<item android:id="@+id/item1"
+          android:title="titulo1"
+          android:showAsAction="ifRoom|withText"/>
+    <group android:id="@+id/group">
+        <item android:id="@+id/group_item1"
+              android:onClick="onGroupItemClick"
+              android:title="titulo2" />
+        <item android:id="@+id/group_item2"
+              android:onClick="onGroupItemClick"
+              android:title="titulo3" />
+    </group>
+    <item android:id="@+id/submenu"
+          android:title="titulo4"
+          android:showAsAction="ifRoom|withText" >
+        <menu>
+            <item android:id="@+id/submenu_item1"
+                  android:title="titulo5" />
+        </menu>
+    </item>
+-->
+
+</menu>

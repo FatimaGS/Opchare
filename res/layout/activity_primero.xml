@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondoapp2" >
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/botones" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    
+	<LinearLayout
+	android:id="@+id/botones"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_alignParentBottom="true">
+
+		<Button
+		    android:id="@+id/btnrepetir"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight=".5"
+		    android:text="@string/Repetir"
+        	android:background="@drawable/pulsacionboton2"
+        	android:onClick="btnRepetir"
+        	android:textColor="#ffffff"
+        	android:textSize="20sp"
+        	android:drawableLeft="@drawable/ic_action_photo"
+        	android:padding="10dp"
+      		android:drawablePadding="0dp"
+      		android:gravity="center"/>
+
+		<Button
+		    android:id="@+id/btnterminar"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight=".5"
+		    android:text="@string/Terminar"
+        	android:background="@drawable/pulsacionboton2"
+        	android:textColor="#ffffff"
+        	android:textSize="20sp"
+        	android:drawableRight="@drawable/ic_action_done"
+        	android:padding="10dp"
+      		android:paddingLeft="40dp"/>
+	    
+    </LinearLayout>
+
+	
+
+</RelativeLayout>

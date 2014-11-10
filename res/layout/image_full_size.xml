@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TerceroImageFullSize" >
+    
+	<com.example.servidorphpuca.HackyViewPager
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/hackyviewpager"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/fondoapp" />
+
+	<ImageView
+	    android:id="@+id/estrellas"
+	    android:layout_width="150dp"
+	    android:layout_height="40dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginRight="8dp"
+	    android:contentDescription="@string/fotolista"
+	    android:gravity="center" />
+
+    <Button
+        	android:layout_centerHorizontal="true"
+        	android:layout_alignParentBottom="true"
+		    android:id="@+id/btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="bottom|center_horizontal"
+		    android:layout_marginBottom="10dp"
+		    android:text="@string/Detectar"
+	        android:background="@drawable/pulsacionboton"
+	        android:drawableLeft="@drawable/detectarapp"
+	        android:padding="20dp"
+	        android:paddingLeft="40dp"
+	        android:textColor="#ffffff"
+	        android:textStyle="bold"
+	        android:gravity="center" />
+    
+    </RelativeLayout>
